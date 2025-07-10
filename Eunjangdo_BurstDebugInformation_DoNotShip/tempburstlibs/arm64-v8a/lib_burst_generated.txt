@@ -9,7 +9,7 @@ Library: /Users/mr11/Desktop/unity/VREnjangdo/Temp/BurstOutput/tempburstlibs/arm
 --target-framework=NetFramework
 --generate-link-xml=Temp/burst.link.xml
 --temp-folder=/Users/mr11/Desktop/unity/VREnjangdo/Temp/Burst
---key-folder=/Applications/Unity/Hub/Editor/6000.0.50f1/PlaybackEngines/AndroidPlayer
+--key-folder=/Applications/Unity/Hub/Editor/6000.0.46f1/PlaybackEngines/AndroidPlayer
 --decode-folder=/Users/mr11/Desktop/unity/VREnjangdo/Library/Burst
 --output=/Users/mr11/Desktop/unity/VREnjangdo/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -72,7 +72,7 @@ Library: /Users/mr11/Desktop/unity/VREnjangdo/Temp/BurstOutput/tempburstlibs/arm
 --float-mode=Fast
 --generate-link-xml=Temp/burst.link.xml
 --temp-folder=/Users/mr11/Desktop/unity/VREnjangdo/Temp/Burst
---key-folder=/Applications/Unity/Hub/Editor/6000.0.50f1/PlaybackEngines/AndroidPlayer
+--key-folder=/Applications/Unity/Hub/Editor/6000.0.46f1/PlaybackEngines/AndroidPlayer
 --decode-folder=/Users/mr11/Desktop/unity/VREnjangdo/Library/Burst
 --output=/Users/mr11/Desktop/unity/VREnjangdo/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -89,7 +89,7 @@ Library: /Users/mr11/Desktop/unity/VREnjangdo/Temp/BurstOutput/tempburstlibs/arm
 --target-framework=NetFramework
 --generate-link-xml=Temp/burst.link.xml
 --temp-folder=/Users/mr11/Desktop/unity/VREnjangdo/Temp/Burst
---key-folder=/Applications/Unity/Hub/Editor/6000.0.50f1/PlaybackEngines/AndroidPlayer
+--key-folder=/Applications/Unity/Hub/Editor/6000.0.46f1/PlaybackEngines/AndroidPlayer
 --decode-folder=/Users/mr11/Desktop/unity/VREnjangdo/Library/Burst
 --output=/Users/mr11/Desktop/unity/VREnjangdo/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/

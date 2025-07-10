@@ -728,7 +728,7 @@ IL2CPP_EXTERN_C uint64_t DEFAULT_CALL MockRuntime_GetRegisteredAndroidThreadsCou
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 57407
+// Method Definition Index: 57622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t1937A0D208CAB12CBD5CCE13C69E45869878CB4A UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mDAD71FA06BDF8C7AD0E33D77406B63DCF4BFA04B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -762,7 +762,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t1937A0D208CAB12CBD5CCE13C69E4
 		return L_6;
 	}
 }
-// Method Definition Index: 57408
+// Method Definition Index: 57623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC7945F740961D5FA514CE655B624B8298FF9DEE7 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t9D9BBDE46B6999BCB3E1FDA40C264DF881B4608F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -877,7 +877,7 @@ extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MockRuntime_AfterFunctionCall
 	MockRuntime_AfterFunctionCallback_mFBBF94D9868CA6870E3A6A78D831145376372D46(____0_function_unmarshaled, ___1_result, NULL);
 
 }
-// Method Definition Index: 57409
+// Method Definition Index: 57624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_add_onScriptEvent_m9069E77F78C10D6FEACC1E52B25723B6899FD518 (ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -920,7 +920,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 57410
+// Method Definition Index: 57625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_remove_onScriptEvent_m0DD8AD22877545F984D4B8FB9630976A7A60B49D (ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -963,7 +963,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 57411
+// Method Definition Index: 57626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MockRuntime_tC5F1019CA2D3E89010E3A3BFC89834251257B2AF* MockRuntime_get_Instance_m2C06B5DA0B6B37B53C528CC246D6BB6C3AFDB1CD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -982,7 +982,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MockRuntime_tC5F1019CA2D3E89010E3A3BFC8983425
 		return L_1;
 	}
 }
-// Method Definition Index: 57412
+// Method Definition Index: 57627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_ReceiveScriptEvent_m4A8AAF0A455A02262E3B74CB3DB498A88C84AD14 (int32_t ___0_evt, uint64_t ___1_param, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1017,7 +1017,7 @@ IL_000a:
 		return;
 	}
 }
-// Method Definition Index: 57413
+// Method Definition Index: 57628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MockRuntime_BeforeFunctionCallback_m70AB6148D0D9FCD315ACDB6B46131514D128380D (String_t* ___0_function, const RuntimeMethod* method) 
 {
 	BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* V_0 = NULL;
@@ -1050,7 +1050,7 @@ IL_000c:
 		return L_5;
 	}
 }
-// Method Definition Index: 57414
+// Method Definition Index: 57629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_AfterFunctionCallback_mFBBF94D9868CA6870E3A6A78D831145376372D46 (String_t* ___0_function, int32_t ___1_result, const RuntimeMethod* method) 
 {
 	AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* V_0 = NULL;
@@ -1084,7 +1084,7 @@ IL_000b:
 		return;
 	}
 }
-// Method Definition Index: 57415
+// Method Definition Index: 57630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetFunctionCallback_m476A00166B662C960AF422A999BC4AD499E2F23C (String_t* ___0_function, BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* ___1_beforeCallback, AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* ___2_afterCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1301,7 +1301,7 @@ IL_00ba:
 		return;
 	}
 }
-// Method Definition Index: 57416
+// Method Definition Index: 57631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetFunctionCallback_m1DF6CA20A1D945E7B4AEB0557D80FD7B31912ED6 (String_t* ___0_function, BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* ___1_beforeCallback, const RuntimeMethod* method) 
 {
 	{
@@ -1315,7 +1315,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetFunctionCallback_m1DF6CA2
 		return;
 	}
 }
-// Method Definition Index: 57417
+// Method Definition Index: 57632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetFunctionCallback_mE208EC432EA4A77FB43E51ABECF1674E2742EC17 (String_t* ___0_function, AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* ___1_afterCallback, const RuntimeMethod* method) 
 {
 	{
@@ -1329,7 +1329,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetFunctionCallback_mE208EC4
 		return;
 	}
 }
-// Method Definition Index: 57418
+// Method Definition Index: 57633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* MockRuntime_GetBeforeFunctionCallback_m8A4593BAA8491A259FFD295B1A9924621780188F (String_t* ___0_function, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1378,7 +1378,7 @@ IL_001a:
 		return L_4;
 	}
 }
-// Method Definition Index: 57419
+// Method Definition Index: 57634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* MockRuntime_GetAfterFunctionCallback_m63FC36538AF51721A135FFB7FB206A6D2E85C2C8 (String_t* ___0_function, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1427,7 +1427,7 @@ IL_001a:
 		return L_4;
 	}
 }
-// Method Definition Index: 57420
+// Method Definition Index: 57635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_ClearFunctionCallbacks_m90C02869CBC305172014649CC205D02AB4A5071C (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1449,7 +1449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_ClearFunctionCallbacks_m90C0
 		return;
 	}
 }
-// Method Definition Index: 57421
+// Method Definition Index: 57636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_ResetDefaults_mD379EAC5A49E19D811C6B39438058DDCCA06E8DE (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1468,7 +1468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_ResetDefaults_mD379EAC5A49E1
 		return;
 	}
 }
-// Method Definition Index: 57422
+// Method Definition Index: 57637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_OnInstanceDestroy_m87D9042CA7DCD7E262D932C110546CB4458847BD (MockRuntime_tC5F1019CA2D3E89010E3A3BFC89834251257B2AF* __this, uint64_t ___0_instance, const RuntimeMethod* method) 
 {
 	{
@@ -1478,7 +1478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_OnInstanceDestroy_m87D9042CA
 		return;
 	}
 }
-// Method Definition Index: 57423
+// Method Definition Index: 57638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MockRuntime_HookCreateInstance_mE4A794C1096A017EE20CDB40DC10FCB74C5C529E (intptr_t ___0_func, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -1500,7 +1500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MockRuntime_HookCreateInstance_mE4A7
 
 	return returnValue;
 }
-// Method Definition Index: 57424
+// Method Definition Index: 57639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetKeepFunctionCallbacks_m8E0E300D594B6DE823AE6800E23FC829AAD55EB4 (bool ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int8_t);
@@ -1521,7 +1521,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetKeepFunctionCallbacks_m8E
 	#endif
 
 }
-// Method Definition Index: 57425
+// Method Definition Index: 57640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetViewPose_m2637BCEAF504A16C376848DB796F5481E126B0D1 (int32_t ___0_viewConfigurationType, int32_t ___1_viewIndex, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___3_orientation, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___4_fov, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3);
@@ -1542,7 +1542,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetViewPose_m2637BCEAF504A16
 	#endif
 
 }
-// Method Definition Index: 57426
+// Method Definition Index: 57641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetViewState_mF705DAE94FD37B98CA8D4EFE4869110FECF96E42 (int32_t ___0_viewConfigurationType, int32_t ___1_viewStateFlags, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
@@ -1563,7 +1563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetViewState_mF705DAE94FD37B
 	#endif
 
 }
-// Method Definition Index: 57427
+// Method Definition Index: 57642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetSpace_mA64A4E84288E70ABCA4540F29A7348B55F0F09B5 (int32_t ___0_referenceSpace, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_orientation, int32_t ___3_locationFlags, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, int32_t);
@@ -1584,7 +1584,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetSpace_mA64A4E84288E70ABCA
 	#endif
 
 }
-// Method Definition Index: 57428
+// Method Definition Index: 57643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetSpace_mDA5CD3C832B62544D145B905197DCF2130505B26 (uint64_t ___0_actionHandle, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_orientation, int32_t ___3_locationFlags, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (uint64_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, int32_t);
@@ -1605,7 +1605,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetSpace_mDA5CD3C832B62544D1
 	#endif
 
 }
-// Method Definition Index: 57429
+// Method Definition Index: 57644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MockRuntime_Internal_RegisterScriptEventCallback_mA892D9EF37F87E25AD3DAEC396B1CD8289C2AA1C (ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* ___0_callback, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer);
@@ -1630,7 +1630,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MockRuntime_Internal_RegisterScriptEv
 
 	return returnValue;
 }
-// Method Definition Index: 57430
+// Method Definition Index: 57645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockRuntime_Internal_TransitionToState_m5D9A59AAF1E0CF512791ADE220FB09DF70109BFF (int32_t ___0_state, bool ___1_forceTransition, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int8_t);
@@ -1652,7 +1652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockRuntime_Internal_TransitionToState_m
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 57431
+// Method Definition Index: 57646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MockRuntime_Internal_GetSessionState_mD58FE1DDA879C6A4744F40160981F6C238D2B2F4 (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -1674,7 +1674,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MockRuntime_Internal_GetSessionState_
 
 	return returnValue;
 }
-// Method Definition Index: 57432
+// Method Definition Index: 57647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_RequestExitSession_mC6194C165F491EC79777DA2EE2631237E12B6169 (const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
@@ -1695,7 +1695,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_RequestExitSession_mC6194C16
 	#endif
 
 }
-// Method Definition Index: 57433
+// Method Definition Index: 57648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_CauseInstanceLoss_m644A81DF5FAFDE1768A0EAACB4B32D58908C0029 (const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
@@ -1716,7 +1716,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_CauseInstanceLoss_m644A81DF5
 	#endif
 
 }
-// Method Definition Index: 57434
+// Method Definition Index: 57649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_CauseUserPresenceChange_mEE669E74AD10E9123171576024FB4257C86F834A (bool ___0_hasUserPresent, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (uint8_t);
@@ -1737,7 +1737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_CauseUserPresenceChange_mEE6
 	#endif
 
 }
-// Method Definition Index: 57435
+// Method Definition Index: 57650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetReferenceSpaceBounds_mF998A5259FAB1F2888C148356379E58C68E35382 (int32_t ___0_referenceSpace, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_bounds, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7);
@@ -1758,7 +1758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_SetReferenceSpaceBounds_mF99
 	#endif
 
 }
-// Method Definition Index: 57436
+// Method Definition Index: 57651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_GetEndFrameStats_m2CA6ACA741702E5BDA2E30C5AC8559BD2BA4FA90 (int32_t* ___0_primaryLayerCount, int32_t* ___1_secondaryLayerCount, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t*, int32_t*);
@@ -1779,7 +1779,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_GetEndFrameStats_m2CA6ACA741
 	#endif
 
 }
-// Method Definition Index: 57437
+// Method Definition Index: 57652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_ActivateSecondaryView_mEA131BD49CD0DDD69B6AFCD7DCBC0250B36F19D9 (int32_t ___0_viewConfigurationType, bool ___1_activate, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int8_t);
@@ -1800,7 +1800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_ActivateSecondaryView_mEA131
 	#endif
 
 }
-// Method Definition Index: 57438
+// Method Definition Index: 57653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_MockRuntime_RegisterFunctionCallbacks_m8FE38D5A0491C53530C2765EA4BA2CFDCA278A58 (BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* ___0_hookBefore, AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* ___1_hookAfter, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer, Il2CppMethodPointer);
@@ -1827,7 +1827,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_MockRuntime_RegisterFunction
 	#endif
 
 }
-// Method Definition Index: 57439
+// Method Definition Index: 57654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_MetaPerformanceMetrics_SeedCounterOnce_Float_m36A5817DD1A8817E727EC2389953495B6AFB5023 (String_t* ___0_xrPathString, float ___1_value, uint32_t ___2_unit, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, float, uint32_t);
@@ -1854,7 +1854,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_MetaPerformanceMetrics_SeedC
 	____0_xrPathString_marshaled = NULL;
 
 }
-// Method Definition Index: 57440
+// Method Definition Index: 57655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_PerformanceSettings_CauseNotification_m40E3953331B4B970C32CAFADA0E23DC9EA9D1C21 (int32_t ___0_domain, int32_t ___1_subDomain, int32_t ___2_level, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t);
@@ -1875,7 +1875,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime_PerformanceSettings_CauseNot
 	#endif
 
 }
-// Method Definition Index: 57441
+// Method Definition Index: 57656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MockRuntime_PerformanceSettings_GetPerformanceLevelHint_mD4796F9E14EE3B13EEF7D253F3B65822AECD1D75 (int32_t ___0_domain, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
@@ -1897,7 +1897,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MockRuntime_PerformanceSettings_GetPe
 
 	return returnValue;
 }
-// Method Definition Index: 57442
+// Method Definition Index: 57657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockRuntime_Internal_IsAndroidThreadTypeRegistered_mFF623A6563782AA73272F410A5F56A1F33F38EC1 (uint32_t ___0_threadType, const RuntimeMethod* method) 
 {
 	typedef uint8_t (DEFAULT_CALL *PInvokeFunc) (uint32_t);
@@ -1919,7 +1919,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockRuntime_Internal_IsAndroidThreadType
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 57443
+// Method Definition Index: 57658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t MockRuntime_Internal_GetRegisteredAndroidThreadsCount_mBBD1DB6CD79BF43051AD495AE922FBE7AEF48DF3 (const RuntimeMethod* method) 
 {
 	typedef uint64_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -1941,7 +1941,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t MockRuntime_Internal_GetRegisteredAn
 
 	return returnValue;
 }
-// Method Definition Index: 57444
+// Method Definition Index: 57659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockRuntime_IsAndroidThreadTypeRegistered_m23F1BA32646039E9BE1A6AB5C2AF4AD8656DB8D2 (uint32_t ___0_threadType, const RuntimeMethod* method) 
 {
 	{
@@ -1952,7 +1952,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockRuntime_IsAndroidThreadTypeRegistere
 		return L_1;
 	}
 }
-// Method Definition Index: 57445
+// Method Definition Index: 57660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t MockRuntime_GetRegisteredAndroidThreadsCount_m07FF19DFB4F4FF331AC889C31133F9314356D2F9 (const RuntimeMethod* method) 
 {
 	{
@@ -1962,7 +1962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t MockRuntime_GetRegisteredAndroidThre
 		return L_0;
 	}
 }
-// Method Definition Index: 57446
+// Method Definition Index: 57661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockRuntime__ctor_mB159112DF9A71505BB0C77424F107CCF5906699F (MockRuntime_tC5F1019CA2D3E89010E3A3BFC89834251257B2AF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2014,7 +2014,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_ScriptEventDelegate_t0DE50F0234F04B
 	il2cppPInvokeFunc(___0_evt, ___1_param);
 
 }
-// Method Definition Index: 57447
+// Method Definition Index: 57662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptEventDelegate__ctor_mE05196985541B485AA1A5D7C97EE6370162597C6 (ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -2043,13 +2043,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptEventDelegate__ctor_mE05196985541B
 	}
 	__this->___extra_arg = (intptr_t)&ScriptEventDelegate_Invoke_m41274335D95A563973BC60763CF3853920443403_Multicast;
 }
-// Method Definition Index: 57448
+// Method Definition Index: 57663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptEventDelegate_Invoke_m41274335D95A563973BC60763CF3853920443403 (ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* __this, int32_t ___0_evt, uint64_t ___1_param, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, uint64_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_evt, ___1_param, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 57449
+// Method Definition Index: 57664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ScriptEventDelegate_BeginInvoke_mA01E16330527DD2C2E43DEA25B1E766572ED28B6 (ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* __this, int32_t ___0_evt, uint64_t ___1_param, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2063,7 +2063,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ScriptEventDelegate_BeginInvok
 	__d_args[1] = Box(il2cpp_defaults.uint64_class, &___1_param);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 57450
+// Method Definition Index: 57665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptEventDelegate_EndInvoke_m25145EDD65EE5A0A801F0DE45587B47D73CFC353 (ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -2114,7 +2114,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_BeforeFunctionDelegate_t767D515A
 
 	return returnValue;
 }
-// Method Definition Index: 57451
+// Method Definition Index: 57666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BeforeFunctionDelegate__ctor_m42A11E8DDD8B3706497D8CF87F6853D961D0C832 (BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -2151,20 +2151,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BeforeFunctionDelegate__ctor_m42A11E8DDD
 	}
 	__this->___extra_arg = (intptr_t)&BeforeFunctionDelegate_Invoke_mAA46B0A8103DF4E9C729D21D736BB9E6A38C70CA_Multicast;
 }
-// Method Definition Index: 57452
+// Method Definition Index: 57667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BeforeFunctionDelegate_Invoke_mAA46B0A8103DF4E9C729D21D736BB9E6A38C70CA (BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* __this, String_t* ___0_functionName, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, String_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_functionName, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 57453
+// Method Definition Index: 57668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BeforeFunctionDelegate_BeginInvoke_m55800A4146677D7A22524810CA5559EF881F59C0 (BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* __this, String_t* ___0_functionName, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_functionName;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 57454
+// Method Definition Index: 57669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BeforeFunctionDelegate_EndInvoke_m680B2FC2866E4A959B218584FCEC8811CE46A4B1 (BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -2213,7 +2213,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_AfterFunctionDelegate_t2794658426C2
 	____0_functionName_marshaled = NULL;
 
 }
-// Method Definition Index: 57455
+// Method Definition Index: 57670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AfterFunctionDelegate__ctor_m70B1A5F67C275B7064C9E1731B27326B97913F96 (AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -2250,13 +2250,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AfterFunctionDelegate__ctor_m70B1A5F67C2
 	}
 	__this->___extra_arg = (intptr_t)&AfterFunctionDelegate_Invoke_mF8B0A0BF8DCC84E37AB367200F2D081B9706A115_Multicast;
 }
-// Method Definition Index: 57456
+// Method Definition Index: 57671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AfterFunctionDelegate_Invoke_mF8B0A0BF8DCC84E37AB367200F2D081B9706A115 (AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* __this, String_t* ___0_functionName, int32_t ___1_result, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, int32_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_functionName, ___1_result, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 57457
+// Method Definition Index: 57672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AfterFunctionDelegate_BeginInvoke_m8850000FC36D01D205D12C3C496C66A4282322AA (AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* __this, String_t* ___0_functionName, int32_t ___1_result, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2270,7 +2270,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AfterFunctionDelegate_BeginInv
 	__d_args[1] = Box(XrResult_tC6E780422C0CF27153FB9B0ED7D1F60015608195_il2cpp_TypeInfo_var, &___1_result);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 57458
+// Method Definition Index: 57673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AfterFunctionDelegate_EndInvoke_m1F7F16FB2CF9927443DA7257E47A5418DABD7B58 (AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -2302,19 +2302,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AfterFunctionDelegate_EndInvoke_m1F7F16F
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 57448
+// Method Definition Index: 57663
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ScriptEventDelegate_Invoke_m41274335D95A563973BC60763CF3853920443403_inline (ScriptEventDelegate_t0DE50F0234F04B68173703087BFCB08BB4922E20* __this, int32_t ___0_evt, uint64_t ___1_param, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, uint64_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_evt, ___1_param, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 57452
+// Method Definition Index: 57667
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BeforeFunctionDelegate_Invoke_mAA46B0A8103DF4E9C729D21D736BB9E6A38C70CA_inline (BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* __this, String_t* ___0_functionName, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, String_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_functionName, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 57456
+// Method Definition Index: 57671
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AfterFunctionDelegate_Invoke_mF8B0A0BF8DCC84E37AB367200F2D081B9706A115_inline (AfterFunctionDelegate_t2794658426C2B81F53841DCC65EED4E864522552* __this, String_t* ___0_functionName, int32_t ___1_result, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, int32_t, const RuntimeMethod*);

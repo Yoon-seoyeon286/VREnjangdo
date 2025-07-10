@@ -3,9 +3,8 @@ using UnityEngine;
 public class Sword : MonoBehaviour
 {
     public GameObject prefabEffect;
-    public GameObject swordPrefab;
     public Transform swordSpawn;
-    bool swordReal;
+    public bool swordReal;
 
     void Start()
     {
@@ -25,12 +24,6 @@ public class Sword : MonoBehaviour
             Instantiate(prefabEffect, transform.position, transform.rotation);
             Invoke("swordDestroy", 2.5f);
             swordReal = false;
-        }
-
-        if (swordReal == false)
-        {
-            Instantiate(swordPrefab, swordSpawn.position, swordSpawn.rotation);
-            swordReal = true;
         }
     }
 

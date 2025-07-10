@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 
     public Text scoreText;
     int score = 0;
-    int enemyCount = 0;
+    public int enemyCount = 0;
     public bool enemyLive;
 
     private void Awake()
@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         enemyCount = 3;
+        score = 0;
     }
 
     void Update()
@@ -37,6 +38,6 @@ public class GameManager : MonoBehaviour
 
     public void addScore(int newScore)
     {
-        scoreText.text = "Á¡¼ö : " + newScore;
+        scoreText.text = "ì ìˆ˜ : " + newScore;
     }
 }
